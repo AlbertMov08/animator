@@ -286,7 +286,13 @@ html, body { width: 100%; height: 100%; overflow: hidden; }
 }
 
 .legend-swatch.player { background: #7ec8ff; }
-.legend-swatch.pass { background: #f5a623; height: 5px; }
+.legend-swatch.pass { background: #f5a623; }
+
+.control-label,
+.play-presets > .control-label {
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
 
 .canvas-area {
   flex: 1;
